@@ -18,5 +18,6 @@ float getAvg(std::vector<int> vec)
 int main() {
     std::vector<int> numbers = {1, 2, 3, 4, 5, 6, 7, 8, 9, 10};
     std::cout << "Sum: " << getSum(numbers) << std::endl;
+    std::cout << "Avg: " << getAvg(numbers) << std::endl;
     return 0;
 }
